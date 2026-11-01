@@ -14,7 +14,8 @@ public class Transaction {
     private String note;
     private Type type;
 
-    public Transaction(String id, String accountNumber, double amount, String note, LocalDateTime timestamp, Type type) {
+    public Transaction(String id, String accountNumber, double amount, String note, LocalDateTime timestamp,
+            Type type) {
         this.id = id;
         this.accountNumber = accountNumber;
         this.amount = amount;
